@@ -61,7 +61,11 @@ INSTALLED_APPS = [
     'profiles',
 
     # third-party apps
-    "django_browser_reload",
+    'django_browser_reload',
+    'rest_framework',
+    'crispy_forms',
+    'crispy_tailwind',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
