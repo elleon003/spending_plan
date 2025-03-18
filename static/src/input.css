@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@source "/templates/*.{html,js}";
+@plugin "daisyui" {
+    themes: fantasy --default, synthwave --prefersdark;
+  }
